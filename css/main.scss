@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+$headersbg:#122526;
+
+.header {
+  background-color: $headersbg;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      margin-right: 15px;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      .btn-sgnup {
+        border: 2px solid #30c0da;
+        padding: 10px 25px;
+        color: #30c0da;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.search {
+  background-color: $headersbg;
+  display: flex;
+  padding-left: 50px;
+  padding-top: 40px;
+
+  h1 {
+    color: white;
+    font-size: 48px;
+  }
+
+  .arrowvector {
+    position: absolute;
+    width: 70px;
+    left: 40%;
+    top: 46%;
+  }
+
+  .search-form {
+    margin-top: 40px;
+
+    input {
+      padding: 15px;
+      background-color: gray;
+      border: none;
+      width: 70%;
+
+      &::placeholder {
+        color: #d1d1d1;
+      }
+    }
+
+    button {
+      display: block;
+      margin-top: 40px;
+      padding: 15px;
+      background-color: #0fcfe9;
+      border: none;
+      width: 70%;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+
+  .casavetor {
+    z-index: 20;
+  }
+}
+
+
+.options-hotel {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 60px;
+
+  h2 {
+    color: $headersbg;
+    font-size: 38px;
+    margin-bottom: 60px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+
+    .card {
+      box-shadow: 3px 3px 3px #c2c2c2;
+      padding-bottom: 15px;
+      text-align: left;
+
+      ul {
+        list-style-type: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        li {
+          display: inline-block;
+          margin-left: 40px;
+        }
+      }
+
+      .agende-btn {
+        border: 2px solid $headersbg;
+        padding: 5px 95px;
+        text-decoration: none;
+        color: $headersbg;
+        transition: all 2s cubic-bezier(0.23, 1, 0.320, 1);
+
+        &:hover {
+          background-color: $headersbg;
+          color: #ffffff;
+        }
+      }
+
+      .btn-center {
+        text-align: center;
+      }
+
+      .roomName {
+        color: $headersbg ;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      p {
+        font-weight: bold;
+      }
+      .price {
+        margin-left: 70%;
+      }
+    }
+  }
+}
+

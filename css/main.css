@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #122526;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 40px;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header ul li .btn-sgnup {
+  border: 2px solid #30c0da;
+  padding: 10px 25px;
+  color: #30c0da;
+}
+
+.header ul li .btn-sgnup:hover {
+  color: white;
+}
+
+.search {
+  background-color: #122526;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.search h1 {
+  color: white;
+  font-size: 48px;
+}
+
+.search .arrowvector {
+  position: absolute;
+  width: 70px;
+  left: 40%;
+  top: 46%;
+}
+
+.search .search-form {
+  margin-top: 40px;
+}
+
+.search .search-form input {
+  padding: 15px;
+  background-color: gray;
+  border: none;
+  width: 70%;
+}
+
+.search .search-form input::-webkit-input-placeholder {
+  color: #d1d1d1;
+}
+
+.search .search-form input:-ms-input-placeholder {
+  color: #d1d1d1;
+}
+
+.search .search-form input::-ms-input-placeholder {
+  color: #d1d1d1;
+}
+
+.search .search-form input::placeholder {
+  color: #d1d1d1;
+}
+
+.search .search-form button {
+  display: block;
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #0fcfe9;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search .casavetor {
+  z-index: 20;
+}
+
+.options-hotel {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+
+.options-hotel h2 {
+  color: #122526;
+  font-size: 38px;
+  margin-bottom: 60px;
+}
+
+.options-hotel .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.options-hotel .cards .card {
+  -webkit-box-shadow: 3px 3px 3px #c2c2c2;
+          box-shadow: 3px 3px 3px #c2c2c2;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.options-hotel .cards .card ul {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.options-hotel .cards .card ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.options-hotel .cards .card .agende-btn {
+  border: 2px solid #122526;
+  padding: 5px 95px;
+  text-decoration: none;
+  color: #122526;
+  -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.options-hotel .cards .card .agende-btn:hover {
+  background-color: #122526;
+  color: #ffffff;
+}
+
+.options-hotel .cards .card .btn-center {
+  text-align: center;
+}
+
+.options-hotel .cards .card .roomName {
+  color: #122526;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.options-hotel .cards .card p {
+  font-weight: bold;
+}
+
+.options-hotel .cards .card .price {
+  margin-left: 70%;
+}
+/*# sourceMappingURL=main.css.map */
