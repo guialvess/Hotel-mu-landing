@@ -85,6 +85,7 @@ $headersbg:#122526;
 
   .casavetor {
     z-index: 20;
+    width: 60%;
   }
 }
 
@@ -103,11 +104,16 @@ $headersbg:#122526;
   .cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     .card {
       box-shadow: 3px 3px 3px #c2c2c2;
       padding-bottom: 15px;
       text-align: left;
+
+      img {
+        width: 100%;
+      }
 
       ul {
         list-style-type: none;
@@ -122,7 +128,7 @@ $headersbg:#122526;
 
       .agende-btn {
         border: 2px solid $headersbg;
-        padding: 5px 95px;
+        padding: 5px 20%;
         text-decoration: none;
         color: $headersbg;
         transition: all 2s cubic-bezier(0.23, 1, 0.320, 1);
@@ -149,6 +155,110 @@ $headersbg:#122526;
       .price {
         margin-left: 70%;
       }
+    }
+  }
+}
+
+
+.instalacoes {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #eeeeee;
+  padding: 60px 40px;
+
+  .img-title {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #122526;
+    font-size: 20px;
+  }
+
+  .left {
+    margin-right: 40px;
+
+    h2 {
+      color: #122526;
+      font-size: 34px;
+      margin-bottom: 40px;
+      max-width: 400px;
+      line-height: 1.3;
+    }
+    p {
+      margin-bottom: 20px;
+      max-width: 260px;
+      line-height: 1.3;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .right {
+    p {
+      margin-bottom: 20px;
+      max-width: 260px;
+      line-height: 1.3;
+    }
+    .first-img {
+      margin-top: 20px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .btn-visite {
+    border: 2px solid $headersbg;
+    padding: 5px 20%;
+    text-decoration: none;
+    color: $headersbg;
+    transition: all 2s cubic-bezier(0.23, 1, 0.320, 1);
+
+    &:hover {
+      background-color: $headersbg;
+      color: #ffffff;
+    }
+  }
+}
+
+.clientes {
+  padding: 80px;
+  h3 {
+    font-size: 32px;
+    color: #122526;
+    margin-bottom: 40px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .person-card {
+    background-color: #122526;
+    color: #ffffff;
+    padding-right: 40px;
+
+    p {
+      margin-bottom: 10px;
+      margin-left: 40px;
+      margin-top: 20px;
+      max-width: 400px;
+      line-height: 1.4;
+    }
+    .person-name {
+      font-size: 18px;
+    }
+    .person-profission {
+      color: #c2c2c2;
+    }
+  }
+
+  .clients-rigth {
+    margin-left: 40px;
+
+    .person-card {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
     }
   }
 }
