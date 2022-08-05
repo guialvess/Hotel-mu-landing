@@ -4,6 +4,102 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+  background-color: #122526;
+}
+
+footer .line {
+  width: 70%;
+  padding: 1px;
+  background-color: #fdfdfd;
+  margin: 0 auto 30px;
+}
+
+footer .medias-sociais {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+footer .medias-sociais a {
+  margin-left: 25px;
+}
+
+.footer {
+  background-color: #122526;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 200px 80px 10px;
+}
+
+.footer p {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul a {
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+.footer ul a:hover {
+  text-decoration: underline;
+}
+
+.cta-home {
+  padding: 60px;
+  background-color: #d0f5e9;
+  background-image: url("../img/Frameimg11.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.cta-home .cta-home-title {
+  font-weight: bold;
+  font-size: 28px;
+  max-width: 450px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+.cta-home .cta-home-text {
+  color: #313131;
+  margin-bottom: 60px;
+}
+
+.cta-home .cta-btn {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  background-color: #0fcfe9;
+  border-radius: 5px;
+  width: 30%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-home .cta-btn span {
+  font-size: 30px;
+  width: 100%;
+}
+
 .header {
   background-color: #122526;
   display: -webkit-box;
@@ -30,6 +126,10 @@
 .header ul li a {
   color: white;
   text-decoration: none;
+}
+
+.header ul li a:hover {
+  color: #0fcfe9;
 }
 
 .header ul li .btn-sgnup {
@@ -59,7 +159,7 @@
 .search .arrowvector {
   position: absolute;
   width: 70px;
-  left: 40%;
+  left: 43%;
   top: 46%;
 }
 
@@ -72,6 +172,8 @@
   background-color: gray;
   border: none;
   width: 70%;
+  color: white;
+  outline: none;
 }
 
 .search .search-form input::-webkit-input-placeholder {
@@ -135,6 +237,7 @@
           box-shadow: 3px 3px 3px #c2c2c2;
   padding-bottom: 15px;
   text-align: left;
+  margin-top: 20px;
 }
 
 .options-hotel .cards .card img {

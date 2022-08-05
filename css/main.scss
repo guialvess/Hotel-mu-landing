@@ -5,6 +5,8 @@
 }
 
 $headersbg:#122526;
+@import 'footer';
+@import 'cta-element';
 
 .header {
   background-color: $headersbg;
@@ -23,6 +25,10 @@ $headersbg:#122526;
       a {
         color: white;
         text-decoration: none;
+
+        &:hover {
+          color: #0fcfe9;
+        }
       }
       .btn-sgnup {
         border: 2px solid #30c0da;
@@ -51,7 +57,7 @@ $headersbg:#122526;
   .arrowvector {
     position: absolute;
     width: 70px;
-    left: 40%;
+    left: 43%;
     top: 46%;
   }
 
@@ -63,6 +69,8 @@ $headersbg:#122526;
       background-color: gray;
       border: none;
       width: 70%;
+      color: white;
+      outline: none;
 
       &::placeholder {
         color: #d1d1d1;
@@ -110,6 +118,7 @@ $headersbg:#122526;
       box-shadow: 3px 3px 3px #c2c2c2;
       padding-bottom: 15px;
       text-align: left;
+      margin-top: 20px;
 
       img {
         width: 100%;

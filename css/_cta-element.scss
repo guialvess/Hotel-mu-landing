@@ -1,0 +1,40 @@
+.cta-home {
+  padding: 60px;
+  background-color: #d0f5e9;
+  background-image: url('../img/Frameimg11.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+
+  .cta-home-title {
+    font-weight: bold;
+    font-size: 28px;
+    max-width: 450px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+  }
+
+  .cta-home-text {
+    color: #313131;
+    margin-bottom: 60px;
+  }
+
+  .cta-btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    background-color: #0fcfe9;
+    border-radius: 5px;
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+    span {
+      font-size: 30px;
+      width: 100%;
+    }
+  }
+}
