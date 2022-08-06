@@ -19,6 +19,10 @@
 @media screen and (max-width: 690px) {
   .header {
     flex-direction: column;
+
+    li {
+      margin-top: 20px;
+    }
   }
 
   .search {
@@ -35,5 +39,9 @@
 
   .footer {
     padding: 80px 30px;
+
+    .logo-footer {
+      display: none;
+    }
   }
 }

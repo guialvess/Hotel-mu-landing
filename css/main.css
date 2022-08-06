@@ -24,6 +24,8 @@
 
 .header ul li {
   display: inline-block;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   margin-right: 15px;
 }
 
@@ -246,6 +248,7 @@
   border: 2px solid #122526;
   padding: 5px 20%;
   text-decoration: none;
+  font-size: 14px;
   color: #122526;
   -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
@@ -305,6 +308,10 @@
   margin-bottom: 30px;
 }
 
+.clientes .clients-rigth .person-card img {
+  max-width: 98%;
+}
+
 .cta-home {
   padding: 60px;
   background-color: #d0f5e9;
@@ -331,7 +338,7 @@
   display: block;
   text-decoration: none;
   text-align: center;
-  padding: 15px;
+  padding: 5px 40px;
   background-color: #0fcfe9;
   border-radius: 5px;
   width: 30%;
@@ -425,6 +432,9 @@ footer .medias-sociais a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .header li {
+    margin-top: 20px;
+  }
   .search {
     padding-bottom: 40px;
   }
@@ -436,6 +446,9 @@ footer .medias-sociais a {
   }
   .footer {
     padding: 80px 30px;
+  }
+  .footer .logo-footer {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
