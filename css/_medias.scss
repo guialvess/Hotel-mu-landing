@@ -1,0 +1,39 @@
+@media screen and (max-width: 890px) {
+  .clientes {
+
+    .flex {
+      flex-direction: column;
+
+      .man-image {
+        width: 90%;
+      }
+    }
+
+    .clients-rigth {
+      margin-top: 25px;
+      margin-left: 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .search {
+    padding-bottom: 40px;
+    h1 {
+      font-size: 30px;
+    }
+
+  }
+  .casavetor {
+    display: none;
+  }
+
+
+  .footer {
+    padding: 80px 30px;
+  }
+}

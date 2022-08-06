@@ -1,12 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 $headersbg:#122526;
-@import 'footer';
-@import 'cta-element';
 
 .header {
   background-color: $headersbg;
@@ -51,26 +49,19 @@ $headersbg:#122526;
 
   h1 {
     color: white;
-    font-size: 48px;
+    font-size: 40px;
   }
 
-  .arrowvector {
-    position: absolute;
-    width: 70px;
-    left: 43%;
-    top: 46%;
-  }
 
   .search-form {
     margin-top: 40px;
 
     input {
       padding: 15px;
-      background-color: gray;
+      background-color: #181818;
       border: none;
       width: 70%;
       color: white;
-      outline: none;
 
       &::placeholder {
         color: #d1d1d1;
@@ -88,6 +79,12 @@ $headersbg:#122526;
       font-size: 20px;
       font-weight: bold;
       cursor: pointer;
+      transition: all .4s ease;
+
+
+      &:hover {
+        background-color: #13aabe;
+      }
     }
   }
 
@@ -106,7 +103,7 @@ $headersbg:#122526;
   h2 {
     color: $headersbg;
     font-size: 38px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .cards {
@@ -140,7 +137,7 @@ $headersbg:#122526;
         padding: 5px 20%;
         text-decoration: none;
         color: $headersbg;
-        transition: all 2s cubic-bezier(0.23, 1, 0.320, 1);
+        transition: all .5s cubic-bezier(0.23, 1, 0.320, 1);
 
         &:hover {
           background-color: $headersbg;
@@ -219,7 +216,7 @@ $headersbg:#122526;
     padding: 5px 20%;
     text-decoration: none;
     color: $headersbg;
-    transition: all 2s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all .5s cubic-bezier(0.23, 1, 0.320, 1);
 
     &:hover {
       background-color: $headersbg;
@@ -272,3 +269,7 @@ $headersbg:#122526;
   }
 }
 
+
+@import 'cta-element';
+@import 'footer';
+@import 'medias';
