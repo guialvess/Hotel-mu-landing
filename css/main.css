@@ -55,6 +55,7 @@
   display: flex;
   padding-left: 50px;
   padding-top: 40px;
+  animation-duration: 2.2s;
 }
 
 .search h1 {
