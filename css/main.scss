@@ -109,11 +109,11 @@ $headersbg:#122526;
 
   .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
     .card {
-      box-shadow: 3px 3px 3px #c2c2c2;
+      box-shadow: 0 5px 5px #c2c2c2;
       padding-bottom: 15px;
       text-align: left;
       margin-top: 20px;
@@ -160,7 +160,7 @@ $headersbg:#122526;
         font-weight: bold;
       }
       .price {
-        margin-left: 70%;
+        margin-left: 60%;
       }
     }
   }
@@ -197,6 +197,14 @@ $headersbg:#122526;
     }
     img {
       width: 100%;
+      border-left: 5px solid transparent;
+      box-sizing: border-box;
+      transition: all 400ms ease-in;
+
+      &:hover {
+        border-left: 5px solid #122526;
+        transition: all 400ms ease-in;
+      }
     }
   }
   .right {
@@ -210,6 +218,14 @@ $headersbg:#122526;
     }
     img {
       width: 100%;
+      border-left: 5px solid transparent;
+      box-sizing: border-box;
+      transition: all 400ms ease-in;
+
+      &:hover {
+        border-left: 5px solid #122526;
+        transition: all 400ms ease-in;
+      }
     }
   }
   .btn-visite {
