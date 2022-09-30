@@ -1,7 +1,8 @@
 # 🏨 site de Hotel
 
-site simples criado apenas com HTML e CSS usando SASS como pré processador css. foi muito legal desenvolver a responsividade desse site , usando  % porcentagem como unidade de medida e media queries.
+### Sobre
 
+O MU representa um site que seria uma empresa que oferece Serviços de Hospedagem de hotéis de luxo , simples e fácil de usar.
 
 ------------
 
