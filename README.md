@@ -12,7 +12,7 @@ O MU representa um site que seria uma empresa que oferece Serviços de Hospedage
 - SASS
 
 ------------
-
+## Deploy
 [visualisar site](https://guialvess.github.io/Hotel-mu-landing/ "visualisar site")
 
 ------------
