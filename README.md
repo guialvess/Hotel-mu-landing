@@ -13,7 +13,7 @@ O MU representa um site que seria uma empresa que oferece Serviços de Hospedage
 
 ------------
 
-[visualisar site](https://guilhermealves-prog.github.io/Hotel-mu-landing/ "visualisar site")
+[visualisar site](https://guialvess.github.io/Hotel-mu-landing/ "visualisar site")
 
 ------------
 ## Preview
